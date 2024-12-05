@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Ensures the output uses modern JS features
+    "module": "commonjs", // Use a module system appropriate for your project
+    "outDir": "./dist", // Output directory
+    "rootDir": "./src", // Input TypeScript files
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Interoperability between ES Modules and CommonJS
+    "sourceMap": true // Generate source maps for debugging
+  },
+  "include": ["src/**/*"], // Include all TypeScript files in the src folder
+  "exclude": ["node_modules", "dist"]
+}
